@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>My Webpage</title>
+		<style>
+			body {
+				background-color: #FFCE00;
+				display: flex;
+				justify-content: center;
+				color: white;
+			}
+
+			h2 {
+				color: white;
+			}
+
+			.page {
+				background-color: #0375B4;
+				padding: 60px;
+			}
+
+			.button {
+				background-color: #007849;
+				color: white;
+				text-decoration: none;
+				padding: 10px;
+				border: 2px solid white;
+				border-radius: 20px;
+				box-shadow: 2px 2px 1px black;
+			}
+
+			.button:hover {
+				background-color: #b3d3e2;
+				border: 2px solid #71a3b3;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="page">
+			<center>
+				<h1>WELCOME HERE</h1>
+				<img src="myProfile.png" height="150">
+			</center>
+
+			<br><br>
+			<a href="#" onclick="flipCoin(0.5)" class="button">My Button 1</a>
+			<a href="#" onclick="flipCoin(0)" class="button">My Button 2</a>
+			<a href="#" onclick="resizeButton()" class="button">My Button 3</a>
+			<br><br>
+
+			<h2>
+				Something about Me
+			</h2>
+			<p>
+				I am from Bulgaria,<br>
+				studied in Sheffield,<br>
+				and then moved to London.<br><br>
+				Personal Quote:
+				<em>It is growing arms and legs</em>
+			</p>
+			<h2>Expertise</h2>
+			<ul>
+				<li>Bubble tea hunter</li>
+				<li>Can move my ears</li>
+				<li>Can speak English</li>
+			</ul>
+			<h2>Last 3 books I read</h2>
+			<ol>
+				<li>DVLA Know your traffic signs</li>
+				<li>Game of thrones</li>
+				<li>Brave New World</li>
+			</ol>
+			<hr>
+			<a href="https://facebook.com/bruno.jurkovski">FB</a>
+			<a href="https://twitter.com/snapchat">
+				Snapchat
+			</a>
+		</div>
+	</body>
+</html>
